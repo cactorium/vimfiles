@@ -1,3 +1,4 @@
 Hello! This is just my vim setup, feel free to browse and whatever.
-Large chunks of code copies without remembering exactly where they came from,
-my apologies to the original writers.
+
+Most of the .nvimrc is from http://stackoverflow.com/a/652532/2342695
+The idea to use Pathogen+git was from http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
