@@ -1,7 +1,7 @@
 execute pathogen#infect()
 
 syntax on
-colorscheme desert
+colorscheme desert256v2
 set ruler                     " show the line number on the bar
 set more                      " use more prompt
 set autoread                  " watch for file changes
