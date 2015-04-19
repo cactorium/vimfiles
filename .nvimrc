@@ -13,8 +13,8 @@ set showcmd
 set nocompatible              " vim, not vi
 set autoindent smartindent    " auto/smart indent
 set smarttab                  " tab and backspace are smart
-set tabstop=2                 " 6 spaces
-set shiftwidth=2
+set tabstop=4                 " 6 spaces
+set shiftwidth=4
 set scrolloff=5               " keep at least 5 lines above/below
 set sidescrolloff=5           " keep at least 5 lines left/right
 set history=200
@@ -61,3 +61,7 @@ endif
 nmap <LocalLeader>tl :set list!<cr>
 " toggle paste mode
 nmap <LocalLeader>pp :set paste!<cr>
+
+" 80 character soft/100 hard line limit
+let &colorcolumn="80,".join(range(120,999),",")
+highlight ColorColumn ctermbg=235 guibg=#2c2d27 
