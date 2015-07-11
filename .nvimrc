@@ -65,3 +65,9 @@ nmap <LocalLeader>pp :set paste!<cr>
 " 80 character soft/100 hard line limit
 let &colorcolumn="80,".join(range(120,999),",")
 highlight ColorColumn ctermbg=235 guibg=#2c2d27 
+
+" remap window moving keys
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-H> <C-W>h
+map <C-L> <C-W>l
