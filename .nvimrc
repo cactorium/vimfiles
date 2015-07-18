@@ -15,6 +15,8 @@ set autoindent smartindent    " auto/smart indent
 set smarttab                  " tab and backspace are smart
 set tabstop=4                 " 6 spaces
 set shiftwidth=4
+set softtabstop=4
+set expandtab
 set scrolloff=5               " keep at least 5 lines above/below
 set sidescrolloff=5           " keep at least 5 lines left/right
 set history=200
@@ -66,8 +68,4 @@ nmap <LocalLeader>pp :set paste!<cr>
 let &colorcolumn="80,".join(range(120,999),",")
 highlight ColorColumn ctermbg=235 guibg=#2c2d27 
 
-" remap window moving keys
-map <C-J> <C-W>j
-map <C-K> <C-W>k
-map <C-H> <C-W>h
-map <C-L> <C-W>l
+nnoremap <C-L> <C-W>
