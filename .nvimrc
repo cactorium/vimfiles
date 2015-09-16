@@ -69,3 +69,11 @@ let &colorcolumn="80,".join(range(120,999),",")
 highlight ColorColumn ctermbg=235 guibg=#2c2d27 
 
 nnoremap <C-L> <C-W>
+set mouse=
+
+autocmd Filetype javascript setlocal et ts=2 sw=2 sts=2
+autocmd Filetype python setlocal sta et sw=2 ts=2 sts=2
+let g:pymode_lint_config = '$HOME/.nvim/pylint.rc'
+let g:pymode_lint_ignore = 'E111,W0311'
+
+let g:glsl_file_extensions = '*.glsl,*.vsh,*.fsh'
