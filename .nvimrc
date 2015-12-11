@@ -68,6 +68,7 @@ set mouse=
 autocmd Filetype javascript setlocal et ts=2 sw=2 sts=2
 autocmd Filetype python setlocal sta et sw=2 ts=2 sts=2
 let g:pymode_lint_config = '$HOME/.nvim/pylint.rc'
-let g:pymode_lint_ignore = 'E111,W0311'
+let g:pymode_lint_ignore = 'E111,W0311,E114'
+let g:pymode_rope = 0
 
 let g:glsl_file_extensions = '*.glsl,*.vsh,*.fsh'

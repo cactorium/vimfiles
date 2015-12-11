@@ -1,8 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/kelvin/hyperdex_build/hyperleveldb-1.2.2'
-let g:netrw_dirhist_2='/home/kelvin/repos/node-cint64/build/Release'
-let g:netrw_dirhist_3='/home/kelvin/repos/UCFBrainStuff/gimbalgen/src'
-let g:netrw_dirhist_4='/home/kelvin/repos/duckdaw/verilog'
-let g:netrw_dirhist_5='/home/kelvin/repos/UCFBrainStuff/seniordesign'
-let g:netrw_dirhist_6='/home/kelvin/repos/levelkv'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/kelvin/repos/SMART_Software'
+let g:netrw_dirhist_2='/home/kelvin/repos/SMART_Software/CCS_PROJECTS'
+let g:netrw_dirhist_3='/home/kelvin/repos/UCFBrainStuff-ResearchDemo/cvep'
+let g:netrw_dirhist_4='/home/kelvin/projects/zmq'
