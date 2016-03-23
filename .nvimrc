@@ -72,3 +72,5 @@ let g:pymode_lint_ignore = 'E111,W0311,E114'
 let g:pymode_rope = 0
 
 let g:glsl_file_extensions = '*.glsl,*.vsh,*.fsh'
+set shiftwidth=2
+autocmd FileType make setlocal noexpandtab
