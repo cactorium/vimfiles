@@ -13,9 +13,9 @@ set showcmd
 set nocompatible              " vim, not vi
 set autoindent smartindent    " auto/smart indent
 set smarttab                  " tab and backspace are smart
-set tabstop=4                 " 6 spaces
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2                 " 6 spaces
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 set scrolloff=5               " keep at least 5 lines above/below
 set sidescrolloff=5           " keep at least 5 lines left/right
@@ -74,3 +74,4 @@ let g:pymode_rope = 0
 let g:glsl_file_extensions = '*.glsl,*.vsh,*.fsh'
 set shiftwidth=2
 autocmd FileType make setlocal noexpandtab
+let g:pymode_python = 'python3'
