@@ -1,7 +1,11 @@
 execute pathogen#infect()
 
 syntax on
-colorscheme desert256v2
+"colorscheme desert256v2
+
+set t_Co=256
+set background=light
+colorscheme PaperColor
 set ruler                     " show the line number on the bar
 set more                      " use more prompt
 set autoread                  " watch for file changes
@@ -60,7 +64,7 @@ nmap <LocalLeader>pp :set paste!<cr>
 
 " 80 character soft/100 hard line limit
 let &colorcolumn="80,".join(range(120,999),",")
-highlight ColorColumn ctermbg=235 guibg=#2c2d27 
+highlight ColorColumn ctermbg=253 guibg=#dadada
 
 nnoremap <C-L> <C-W>
 set mouse=
